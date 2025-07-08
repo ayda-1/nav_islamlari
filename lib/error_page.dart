@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
 
-class YellowPage extends StatelessWidget {
-  const YellowPage({super.key});
+class ErrorPage extends StatelessWidget {
+  const ErrorPage({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Yellow Page"),
-        backgroundColor: Colors.yellow,
+        backgroundColor: Colors.amber,
         foregroundColor: Colors.white,
       ),
       body: Center(
@@ -16,7 +15,7 @@ class YellowPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              "Yellow Page",
+              "Aranan sayfa bulunamadı",
               style: Theme.of(context).textTheme.headlineMedium,
             ),
           ],
